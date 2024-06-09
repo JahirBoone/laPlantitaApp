@@ -25,3 +25,23 @@
 #container a {
   text-decoration: none;
 }
+
+#circle-container {
+  display: flex;;
+  margin-top: 50px;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: flex-start; /* Alinea al inicio verticalmente */
+  
+}
+
+#circle {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #e60303;
+}
+
+#circle-container #temperatura {
+  display: flex;
+}

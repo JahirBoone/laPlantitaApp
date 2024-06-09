@@ -7,8 +7,40 @@
 </ion-header>
 
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  
+  <div id="circle-container">
+    <div id="circle"><label id="temperatura">32°C</label></div>
   </div>
+  
+  <ion-card>
+    <ion-card-header><ion-card-title>Humedad de la tierra</ion-card-title></ion-card-header>
+    <ion-card-content>
+      <ion-progress-bar value="0.2"></ion-progress-bar>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header><ion-card-title>Humedad ambiental</ion-card-title></ion-card-header>
+    <ion-card-content>
+      <ion-progress-bar value="0.2"></ion-progress-bar>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header><ion-card-title>Cantidad de luz solar</ion-card-title></ion-card-header>
+    <ion-card-content>
+      <ion-progress-bar value="0.2"></ion-progress-bar>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header><ion-card-title>Nivel de pH</ion-card-title></ion-card-header>
+    <ion-card-content>
+      <ion-progress-bar value="0.2"></ion-progress-bar>
+    </ion-card-content>
+  </ion-card>
+
+  
 </ion-content>
